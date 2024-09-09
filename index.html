@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Calculator Task</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="calculator">
+      <input type="text" id="display" />
+      <div class="btns">
+        <button onclick="Clear()" class="clrOperator">AC</button>
+        <button onclick="DeleteDisplay()" class="clrOperator">DEL</button>
+        <button onclick="element('%')" class="operator">%</button>
+        <button onclick="element('/')" class="operator">/</button>
+
+        <button onclick="element('7')">7</button>
+        <button onclick="element('8')">8</button>
+        <button onclick="element('9')">9</button>
+        <button onclick="element('*')" class="operator">*</button>
+
+        <button onclick="element('4')">4</button>
+        <button onclick="element('5')">5</button>
+        <button onclick="element('6')">6</button>
+        <button onclick="element('-')" class="operator">-</button>
+
+        <button onclick="element('1')">1</button>
+        <button onclick="element('2')">2</button>
+        <button onclick="element('3')">3</button>
+        <button onclick="element('+')" class="operator">+</button>
+
+        <button onclick="element('0')">0</button>
+        <button onclick="element('00')">00</button>
+        <button onclick="element('.')">.</button>
+        <button onclick="Evaluation()" class="operator">=</button>
+
+
+      </div>
+    </div>
+  </body>
+  <script src="./script.js"></script>
+</html>
